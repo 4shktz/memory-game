@@ -22,8 +22,12 @@ body {
 }
   
 .memory-game div {
-    background-color: #e0e0e0;
+    background-color: #000;
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
+}
+
+.memory-game div.flipped {
+    background-color: #ccc;
 }
